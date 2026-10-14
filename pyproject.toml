@@ -7,7 +7,9 @@ authors = [
     { name = "Babu Macharia", email = "babu.macharia@gmail.com" }
 ]
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "typer>=0.27.3",
+]
 
 [project.scripts]
 sre-service-monitor = "sre_service_monitor:main"
